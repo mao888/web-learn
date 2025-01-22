@@ -1,0 +1,15 @@
+body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+canvas {
+    background-image: url('https://lmusic-1302280959.cos.ap-chengdu.myqcloud.com/snake/background.png');
+    background-size: cover; /* 可选：调整背景图片的大小以适应画布 */
+    width: 500px;
+    height: 500px;
+}

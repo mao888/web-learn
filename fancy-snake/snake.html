@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>豆包MarsCode 花样贪吃蛇</title>
+    <link rel="stylesheet" href="snake.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="snake.js" defer></script>
+</head>
+<body>
+<div id="app">
+    <div class="container">
+        <div>豆包MarsCode 花样贪吃蛇</div>
+        <div>得分: {{ score }}
+            <button @click="snake.start()">开始游戏</button>
+        </div>
+        <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+</div>
+</body>
+</html>
